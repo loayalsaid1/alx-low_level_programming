@@ -13,3 +13,6 @@ C-HELLO_WORLD PROJECT
 3-name: Create an executable
 3-name: Create an executable
 
+4-puts.c: USE PUTS TO PRINT A FUNCTION
+4-puts.c: USE PUTS TO PRINT A FUNCTION
+
