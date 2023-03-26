@@ -7,3 +7,6 @@ C-HELLO_WORLD PROJECT
 1-compiler: compile without linking
 1-compiler: compile without linking
 
+2-assembler: compile a file without assembling it 
+2-assembler: compile a file without assembling it 
+
