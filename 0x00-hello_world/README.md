@@ -19,3 +19,6 @@ C-HELLO_WORLD PROJECT
 4-printf.c: use printf
 4-printf.c: use printf
 
+6-size.c: print the size of data types
+6-size.c: print the size of data types
+
