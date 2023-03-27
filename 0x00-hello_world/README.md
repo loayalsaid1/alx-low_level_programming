@@ -16,3 +16,6 @@ C-HELLO_WORLD PROJECT
 4-puts.c: USE PUTS TO PRINT A FUNCTION
 4-puts.c: USE PUTS TO PRINT A FUNCTION
 
+4-printf.c: use printf
+4-printf.c: use printf
+
