@@ -22,3 +22,6 @@ C-HELLO_WORLD PROJECT
 6-size.c: print the size of data types
 6-size.c: print the size of data types
 
+100-intel: create an assemply intell file
+100-intel: create an assemply intell file
+
