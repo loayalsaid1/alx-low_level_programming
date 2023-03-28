@@ -5,6 +5,8 @@ C [if..else, if..else if..else, while loops and variables concepts
 1-last_digit.c: print last digit of number
 1-last_digit.c: print last digit of number
 
+2-print_alphabets.c: Print lowercase alphatbet
+
 3-print_alphabets.c: print lowercase and uppercase of alphabets
 3-print_alphabets.c: print lowercase and uppercase of alphabets
 
