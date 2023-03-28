@@ -15,3 +15,6 @@ C [if..else, if..else if..else, while loops and variables concepts
 5-print_numbers.c: Print single 10 base numbers
 5-print_numbers.c: Print single 10 base numbers
 
+6-print_numberz.c: same as last one but with putchar and no char variables
+6-print_numberz.c: same as last one but with putchar and no char variables
+
