@@ -10,3 +10,5 @@ C [if..else, if..else if..else, while loops and variables concepts
 3-print_alphabets.c: print lowercase and uppercase of alphabets
 3-print_alphabets.c: print lowercase and uppercase of alphabets
 
+
+4-print_alphabt.c: print lowercase alphabet with no e or q
