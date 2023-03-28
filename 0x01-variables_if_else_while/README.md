@@ -18,3 +18,6 @@ C [if..else, if..else if..else, while loops and variables concepts
 6-print_numberz.c: same as last one but with putchar and no char variables
 6-print_numberz.c: same as last one but with putchar and no char variables
 
+
+
+ prints the lowercase alphabet in reverse using putchar

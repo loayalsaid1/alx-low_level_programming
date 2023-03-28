@@ -8,11 +8,12 @@
 int main(void)
 {
 	int ascii_0 = 48;
-
-	int i = 0;
-	while (i < ascii_0 + 10)
+	
+	int i = ascii_0;
+	while (i < (ascii_0 + 10))
 	{
 		putchar(i);
+		i++
 	}
 	putchar('\n');
 
