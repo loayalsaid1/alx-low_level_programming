@@ -24,3 +24,6 @@ C [if..else, if..else if..else, while loops and variables concepts
 8-Print_base16.c: print all hex numbers
 8-Print_base16.c: print all hex numbers
 
+9-print_comb.c: print comibines of single digits
+9-print_comb.c: print comibines of single digits
+
