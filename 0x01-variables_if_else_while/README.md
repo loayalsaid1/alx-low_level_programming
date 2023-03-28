@@ -12,3 +12,6 @@ C [if..else, if..else if..else, while loops and variables concepts
 
 
 4-print_alphabt.c: print lowercase alphabet with no e or q
+5-print_numbers.c: Print single 10 base numbers
+5-print_numbers.c: Print single 10 base numbers
+
