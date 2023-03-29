@@ -27,3 +27,6 @@ C [if..else, if..else if..else, while loops and variables concepts
 9-print_comb.c: print comibines of single digits
 9-print_comb.c: print comibines of single digits
 
+200-print_comb3.c: Print combinations of 2 digits
+200-print_comb3.c: Print combinations of 2 digits
+
