@@ -7,3 +7,6 @@ Functions and nested loops ALX SE project
 3-paths: Cound the number of occurece
 3-paths: Cound the number of occurece
 
+0-putchar.c: print without using std libraries
+0-putchar.c: print without using std libraries
+
