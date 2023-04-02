@@ -10,3 +10,6 @@ Functions and nested loops ALX SE project
 0-putchar.c: print without using std libraries
 0-putchar.c: print without using std libraries
 
+0-putchar.c: print without using std libraries
+0-putchar.c: print without using std libraries
+
