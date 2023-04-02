@@ -9,7 +9,7 @@ fi
 
 # create file and open it with vi
 touch "$1"
-vi main.h
+vi main.i
 vi "$1"
 
 # add shebang and blank line
@@ -21,7 +21,7 @@ chmod +x "$1"
 # commit changes
 commit_message="Add $1"
 echo "$1: $2" >> "README.md"
-git add "README.md" "$1"
+git add .
 git commit -m "$commit_message"
 git push
 
