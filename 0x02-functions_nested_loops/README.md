@@ -31,3 +31,6 @@ Functions and nested loops ALX SE project
 5-sign.c: check the number if +, -, or 0
 5-sign.c: check the number if +, -, or 0
 
+6-abs.c: return the absolute value
+6-abs.c: return the absolute value
+
