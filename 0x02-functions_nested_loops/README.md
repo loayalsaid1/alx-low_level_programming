@@ -49,3 +49,6 @@ Functions and nested loops ALX SE project
 11-print_to_98.c: print to 98 from any value
 11-print_to_98.c: print to 98 from any value
 
+100-times_table.c: print times table
+100-times_table.c: print times table
+
