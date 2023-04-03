@@ -25,3 +25,6 @@ Functions and nested loops ALX SE project
 3-islower.c: check for lowercase without using stdio
 3-islower.c: check for lowercase without using stdio
 
+4-isalpha.c: check wheather the charachter is alphabet or not
+4-isalpha.c: check wheather the charachter is alphabet or not
+
