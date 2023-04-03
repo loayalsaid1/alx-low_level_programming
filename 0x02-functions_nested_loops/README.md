@@ -40,3 +40,6 @@ Functions and nested loops ALX SE project
 8-24hours.c: print all the minutes in the day
 8-24hours.c: print all the minutes in the day
 
+9-times_table.c: print times table from 0 to 9
+9-times_table.c: print times table from 0 to 9
+
