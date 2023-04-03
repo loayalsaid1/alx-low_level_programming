@@ -22,3 +22,6 @@ Functions and nested loops ALX SE project
 2-print_alphabet_x10.c: print 10x the alphabet
 2-print_alphabet_x10.c: print 10x the alphabet
 
+3-islower.c: check for lowercase without using stdio
+3-islower.c: check for lowercase without using stdio
+
