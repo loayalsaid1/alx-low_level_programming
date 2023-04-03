@@ -28,3 +28,6 @@ Functions and nested loops ALX SE project
 4-isalpha.c: check wheather the charachter is alphabet or not
 4-isalpha.c: check wheather the charachter is alphabet or not
 
+5-sign.c: check the number if +, -, or 0
+5-sign.c: check the number if +, -, or 0
+
