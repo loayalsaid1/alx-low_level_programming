@@ -43,3 +43,6 @@ Functions and nested loops ALX SE project
 9-times_table.c: print times table from 0 to 9
 9-times_table.c: print times table from 0 to 9
 
+10-add.c: add 2 numbers
+10-add.c: add 2 numbers
+
