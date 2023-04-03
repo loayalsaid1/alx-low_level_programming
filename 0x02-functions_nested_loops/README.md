@@ -37,3 +37,6 @@ Functions and nested loops ALX SE project
 7-print_last_digit.c: print the last digit on number
 7-print_last_digit.c: print the last digit on number
 
+8-24hours.c: print all the minutes in the day
+8-24hours.c: print all the minutes in the day
+
