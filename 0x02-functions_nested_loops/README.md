@@ -34,3 +34,6 @@ Functions and nested loops ALX SE project
 6-abs.c: return the absolute value
 6-abs.c: return the absolute value
 
+7-print_last_digit.c: print the last digit on number
+7-print_last_digit.c: print the last digit on number
+
