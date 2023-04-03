@@ -9,7 +9,7 @@ fi
 
 # create file and open it with vi
 touch "$1"
-vi main.i
+vi main.h
 vi "$1"
 
 # add shebang and blank line

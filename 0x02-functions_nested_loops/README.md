@@ -16,3 +16,6 @@ Functions and nested loops ALX SE project
 0-putchar.c: print wihout std libraries
 0-putchar.c: print wihout std libraries
 
+1-alphabet.c: print the alphabet
+1-alphabet.c: print the alphabet
+
