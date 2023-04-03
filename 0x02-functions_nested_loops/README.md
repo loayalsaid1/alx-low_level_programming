@@ -52,3 +52,6 @@ Functions and nested loops ALX SE project
 100-times_table.c: print times table
 100-times_table.c: print times table
 
+101-natural.c: list al the natural numbers below 10
+101-natural.c: list al the natural numbers below 10
+
