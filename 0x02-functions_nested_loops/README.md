@@ -19,3 +19,6 @@ Functions and nested loops ALX SE project
 1-alphabet.c: print the alphabet
 1-alphabet.c: print the alphabet
 
+2-print_alphabet_x10.c: print 10x the alphabet
+2-print_alphabet_x10.c: print 10x the alphabet
+
