@@ -55,3 +55,6 @@ Functions and nested loops ALX SE project
 101-natural.c: list al the natural numbers below 10
 101-natural.c: list al the natural numbers below 10
 
+102-fibonacci.c: Pirnt the first 50 fabonacci numbers
+102-fibonacci.c: Pirnt the first 50 fabonacci numbers
+
