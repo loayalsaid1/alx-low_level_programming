@@ -29,3 +29,6 @@ More functions project
 9-fizz_buzz.c: print numbers and replace someof them with fiz buzz 
 9-fizz_buzz.c: print numbers and replace someof them with fiz buzz 
 
+10-print_triangle.c: print triangle 
+10-print_triangle.c: print triangle 
+
