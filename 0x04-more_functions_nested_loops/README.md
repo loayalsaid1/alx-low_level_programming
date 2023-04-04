@@ -8,3 +8,6 @@ More functions project
 2-mul.c: multiply 2 numbers
 2-mul.c: multiply 2 numbers
 
+3-print_numbers.c: Prints digits followed by a new line
+3-print_numbers.c: Prints digits followed by a new line
+
