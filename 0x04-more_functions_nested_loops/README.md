@@ -5,3 +5,6 @@ More functions project
 1-isdigit.c: scheck wheather is digit or not 
 1-isdigit.c: scheck wheather is digit or not 
 
+2-mul.c: multiply 2 numbers
+2-mul.c: multiply 2 numbers
+
