@@ -26,3 +26,6 @@ More functions project
 8-print_square.c: just like the name
 8-print_square.c: just like the name
 
+9-fizz_buzz.c: print numbers and replace someof them with fiz buzz 
+9-fizz_buzz.c: print numbers and replace someof them with fiz buzz 
+
