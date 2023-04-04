@@ -8,3 +8,8 @@ one more one
 3-largest_number.c: print the largest number 
 3-largest_number.c: print the largest number 
 
+3-print_remaining_days.c: fix a bug
+
+3-print_remaining_days.c: fix a bug
+
+
