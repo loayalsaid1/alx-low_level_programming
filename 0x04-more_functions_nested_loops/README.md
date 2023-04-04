@@ -17,3 +17,6 @@ More functions project
 5-more_numbers.c: print 10 lines of numbers from 0 to 14
 5-more_numbers.c: print 10 lines of numbers from 0 to 14
 
+6-pirnt_line.c: print line with teh length of n
+6-pirnt_line.c: print line with teh length of n
+
