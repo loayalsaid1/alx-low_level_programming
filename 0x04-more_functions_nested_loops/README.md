@@ -23,3 +23,6 @@ More functions project
 7-print_diagonal.c: print diagonal
 7-print_diagonal.c: print diagonal
 
+8-print_square.c: just like the name
+8-print_square.c: just like the name
+
