@@ -58,3 +58,6 @@ Functions and nested loops ALX SE project
 102-fibonacci.c: Pirnt the first 50 fabonacci numbers
 102-fibonacci.c: Pirnt the first 50 fabonacci numbers
 
+103-fibonacci.c: 103-fibonacci
+103-fibonacci.c: 103-fibonacci
+
