@@ -20,3 +20,6 @@ More functions project
 6-pirnt_line.c: print line with teh length of n
 6-pirnt_line.c: print line with teh length of n
 
+7-print_diagonal.c: print diagonal
+7-print_diagonal.c: print diagonal
+
