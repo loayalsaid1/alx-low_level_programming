@@ -14,3 +14,6 @@ More functions project
 4-print_most_numbers.c: print as the title
 4-print_most_numbers.c: print as the title
 
+5-more_numbers.c: print 10 lines of numbers from 0 to 14
+5-more_numbers.c: print 10 lines of numbers from 0 to 14
+
