@@ -5,3 +5,8 @@
 1-swap.c: swap the values of two files
 1-swap.c: swap the values of two files
 
+2-strlen.c: return the length of a string without using stdio.h
+2-strlen.c: return the length of a string without using stdio.h
+************** NOTE , I THOUGH THAT IF I USE A COUNTER VARIABLE;
+THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
+
