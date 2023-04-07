@@ -16,3 +16,6 @@ THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
 5-rev_string.c: reverse a string
 5-rev_string.c: reverse a string
 
+6-puts2.c: print every even index in a string(array of characters)
+6-puts2.c: print every even index in a string(array of characters)
+
