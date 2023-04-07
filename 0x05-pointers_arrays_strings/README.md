@@ -13,3 +13,6 @@ THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
 4-print_rev.c: print a reverced string
 4-print_rev.c: print a reverced string
 
+5-rev_string.c: reverse a string
+5-rev_string.c: reverse a string
+
