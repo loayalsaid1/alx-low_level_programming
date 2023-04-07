@@ -10,3 +10,6 @@
 ************** NOTE , I THOUGH THAT IF I USE A COUNTER VARIABLE;
 THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
 
+4-print_rev.c: print a reverced string
+4-print_rev.c: print a reverced string
+
