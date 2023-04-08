@@ -19,3 +19,6 @@ THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
 6-puts2.c: print every even index in a string(array of characters)
 6-puts2.c: print every even index in a string(array of characters)
 
+8-print_array.c: print the first N intergers from an array
+8-print_array.c: print the first N intergers from an array
+
