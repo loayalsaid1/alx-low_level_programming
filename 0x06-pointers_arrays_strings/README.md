@@ -5,3 +5,6 @@ ONE MORE PROJECT
 3-strcmp.c: compare 2 strings
 3-strcmp.c: compare 2 strings
 
+4-rev_array.c: reverse teh content of an array
+4-rev_array.c: reverse teh content of an array
+
