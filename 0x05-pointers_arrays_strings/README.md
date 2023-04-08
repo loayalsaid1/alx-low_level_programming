@@ -22,3 +22,6 @@ THAT WILL BE BETTER, BUT NO!, AND ALSO I ASKED ChatGPT.
 8-print_array.c: print the first N intergers from an array
 8-print_array.c: print the first N intergers from an array
 
+9-strcpy.c: copy string into another
+9-strcpy.c: copy string into another
+
