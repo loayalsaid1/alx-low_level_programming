@@ -8,3 +8,6 @@ ONE MORE PROJECT
 4-rev_array.c: reverse teh content of an array
 4-rev_array.c: reverse teh content of an array
 
+5-string_toupper.c: Do what the name tells!
+5-string_toupper.c: Do what the name tells!
+
