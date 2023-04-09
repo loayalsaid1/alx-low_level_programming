@@ -11,3 +11,6 @@ ONE MORE PROJECT
 5-string_toupper.c: Do what the name tells!
 5-string_toupper.c: Do what the name tells!
 
+7-leet.c: do the leet approach
+7-leet.c: do the leet approach
+
