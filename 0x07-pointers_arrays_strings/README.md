@@ -8,3 +8,6 @@ the last pointers project
 2-strchr.c: return a pointer to the first occurence of a character in a string
 2-strchr.c: return a pointer to the first occurence of a character in a string
 
+3-strpsn.c: return the number of the intial segment of a string that cantain only ACCEPT set of characters
+3-strpsn.c: return the number of the intial segment of a string that cantain only ACCEPT set of characters
+
