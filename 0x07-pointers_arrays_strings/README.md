@@ -11,3 +11,6 @@ the last pointers project
 3-strpsn.c: return the number of the intial segment of a string that cantain only ACCEPT set of characters
 3-strpsn.c: return the number of the intial segment of a string that cantain only ACCEPT set of characters
 
+5-strstr.c: return pointer to the first occurence of a substring in a string
+5-strstr.c: return pointer to the first occurence of a substring in a string
+
