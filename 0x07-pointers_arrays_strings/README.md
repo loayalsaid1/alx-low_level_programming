@@ -14,3 +14,6 @@ the last pointers project
 5-strstr.c: return pointer to the first occurence of a substring in a string
 5-strstr.c: return pointer to the first occurence of a substring in a string
 
+4-strpbrk: returns the first occurence of a byte in a set of bytes in a string
+4-strpbrk: returns the first occurence of a byte in a set of bytes in a string
+
