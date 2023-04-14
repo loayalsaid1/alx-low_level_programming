@@ -20,3 +20,6 @@ the last pointers project
 7-print_chessboard.c: print the chess board
 7-print_chessboard.c: print the chess board
 
+8-print_diagsums.c: print the two diagonals of a matrics
+8-print_diagsums.c: print the two diagonals of a matrics
+
