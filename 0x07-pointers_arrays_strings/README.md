@@ -23,3 +23,6 @@ the last pointers project
 8-print_diagsums.c: print the two diagonals of a matrics
 8-print_diagsums.c: print the two diagonals of a matrics
 
+100-set_string.c: set a string to teh value of another pointer
+100-set_string.c: set a string to teh value of another pointer
+
