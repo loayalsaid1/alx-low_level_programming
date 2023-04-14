@@ -17,3 +17,6 @@ the last pointers project
 4-strpbrk: returns the first occurence of a byte in a set of bytes in a string
 4-strpbrk: returns the first occurence of a byte in a set of bytes in a string
 
+7-print_chessboard.c: print the chess board
+7-print_chessboard.c: print the chess board
+
