@@ -8,3 +8,6 @@
 2-strlen_recursion.c: Returns the length of a string
 2-strlen_recursion.c: Returns the length of a string
 
+3-factorial.c: return the factorial of a number
+3-factorial.c: return the factorial of a number
+
