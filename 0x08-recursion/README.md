@@ -11,3 +11,6 @@
 3-factorial.c: return the factorial of a number
 3-factorial.c: return the factorial of a number
 
+4-pow_recursion.c: return the integer x reised to the power of y
+4-pow_recursion.c: return the integer x reised to the power of y
+
