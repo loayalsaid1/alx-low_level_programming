@@ -17,3 +17,6 @@
 _sqrt_recursion.c: return teh square root of a funcion of -1 if there is none
 _sqrt_recursion.c: return teh square root of a funcion of -1 if there is none
 
+6-is_prime_number.c: check whether a number is prime of not
+6-is_prime_number.c: check whether a number is prime of not
+
