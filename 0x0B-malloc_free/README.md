@@ -5,3 +5,6 @@ Malloc and Free project
 1-stdub.c: Do the sameaas strdup
 1-stdub.c: Do the sameaas strdup
 
+2-str_concat.c: Do the same as str_concat
+2-str_concat.c: Do the same as str_concat
+
