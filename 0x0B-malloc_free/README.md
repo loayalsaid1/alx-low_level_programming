@@ -8,3 +8,6 @@ Malloc and Free project
 2-str_concat.c: Do the same as str_concat
 2-str_concat.c: Do the same as str_concat
 
+3-alloc_grid.c just: what
+3-alloc_grid.c just: what
+
