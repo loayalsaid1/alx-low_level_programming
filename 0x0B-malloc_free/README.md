@@ -11,3 +11,6 @@ Malloc and Free project
 3-alloc_grid.c just: what
 3-alloc_grid.c just: what
 
+4-free_grid.c: just what the name tells
+4-free_grid.c: just what the name tells
+
