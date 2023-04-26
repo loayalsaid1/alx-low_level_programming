@@ -5,3 +5,6 @@
 1-string_nconcat.c: concatinate the first n bytes from a string into the other one
 1-string_nconcat.c: concatinate the first n bytes from a string into the other one
 
+2-calloc.c: simulation for calloc()
+2-calloc.c: simulation for calloc()
+
