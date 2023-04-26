@@ -8,3 +8,6 @@
 2-calloc.c: simulation for calloc()
 2-calloc.c: simulation for calloc()
 
+3-array_range.c: create an array numbers from min to max
+3-array_range.c: create an array numbers from min to max
+
