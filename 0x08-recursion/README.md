@@ -25,3 +25,8 @@
 101-wildcmp.c: kk
 101-wildcmp.c: kk
 
+101-wildcmp.c: create wild compare function
+
+101-wildcmp.c: create wild compare function
+
+
