@@ -13,3 +13,6 @@
 3-factorial.c: make a factorial via recursion
 3-factorial.c: make a factorial via recursion
 
+4-pow_recursion.c: raise a number to the power of y
+4-pow_recursion.c: raise a number to the power of y
+
