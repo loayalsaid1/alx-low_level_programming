@@ -30,3 +30,6 @@
 101-wildcmp.c: create wild compare function
 
 
+100-is_palindrome.c: Check if a string is palindrome
+100-is_palindrome.c: Check if a string is palindrome
+
