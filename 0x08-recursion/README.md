@@ -10,3 +10,6 @@
 2-strlen_recursion.c: calculate the length of string
 2-strlen_recursion.c: calculate the length of string
 
+3-factorial.c: make a factorial via recursion
+3-factorial.c: make a factorial via recursion
+
