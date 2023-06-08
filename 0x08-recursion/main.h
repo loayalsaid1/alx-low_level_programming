@@ -9,6 +9,5 @@ int check_sqrt(int x, int y);
 int is_prime_number(int n);
 int Check_primes(unsigned int number, unsigned int divided_num);
 int is_palindrome(char *s);
-int _strlen_recursion(char *s);
+int chekcer(char *s1, char *s2);
 int wildcmp(char *s1, char *s2);
-int comparator(char *s, int n1, int n2);
