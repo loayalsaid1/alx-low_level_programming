@@ -16,3 +16,6 @@
 4-pow_recursion.c: raise a number to the power of y
 4-pow_recursion.c: raise a number to the power of y
 
+6-is_prime_number.c: The same as the name
+6-is_prime_number.c: The same as the name
+
