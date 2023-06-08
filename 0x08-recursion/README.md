@@ -19,3 +19,6 @@
 6-is_prime_number.c: The same as the name
 6-is_prime_number.c: The same as the name
 
+100-is_palindrome.c: does what the name says
+100-is_palindrome.c: does what the name says
+

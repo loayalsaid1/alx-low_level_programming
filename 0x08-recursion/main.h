@@ -8,3 +8,7 @@ int _sqrt_recursion(int n);
 int check_sqrt(int x, int y);
 int is_prime_number(int n);
 int Check_primes(unsigned int number, unsigned int divided_num);
+int is_palindrome(char *s);
+int comparator(char *s1, char *s2);
+int _strlen_recursion(char *s);
+
