@@ -1,7 +1,7 @@
 #include "main.h"
-/*
+/**
  * _puts_recursion - provides a similar function to  puts
- * s: the string
+ * @s: the string
  * return: void
  */
 void _puts_recursion(char *s)
