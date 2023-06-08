@@ -22,3 +22,6 @@
 100-is_palindrome.c: does what the name says
 100-is_palindrome.c: does what the name says
 
+101-wildcmp.c: kk
+101-wildcmp.c: kk
+
