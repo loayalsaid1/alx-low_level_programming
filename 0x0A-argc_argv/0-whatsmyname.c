@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 #include "main.h"
 /**
  * main - main fuction
@@ -6,7 +6,7 @@
  * @argv: argumets
  * Return: 0 on success and 1 on error
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	(void)argc;
 	printf("%s\n", argv[0]);
