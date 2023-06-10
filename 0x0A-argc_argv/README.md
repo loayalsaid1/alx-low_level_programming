@@ -5,3 +5,6 @@ main function arguments
 4-add.c: 4-add.c
 4-add.c: 
 
+100-change.c: Check the number of coins in the change
+100-change.c: Check the number of coins in the change
+
