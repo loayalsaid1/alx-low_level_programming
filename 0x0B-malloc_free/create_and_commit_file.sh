@@ -18,11 +18,6 @@ echo -n '' >> "$1"
 # add execute permission
 chmod +x "$1"
 
-# check for betty errors, and then compile
-bs $1
-bd $1
-gcc $1
-
 # commit changes
 commit_message="Add $1"
 echo "$1: $2" >> "README.md"

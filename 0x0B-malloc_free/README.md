@@ -2,3 +2,6 @@ Malloc and Free project
 0-create_array.c: Dynamicly allocate an array then intialize it
 0-create_array.c: Dynamicly allocate an array then intialize it
 
+1-strdup.c: duplicate a string in a dynamicly allocated buffer
+1-strdup.c: duplicate a string in a dynamicly allocated buffer
+
