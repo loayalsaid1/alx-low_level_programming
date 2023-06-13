@@ -5,3 +5,6 @@ Malloc and Free project
 1-strdup.c: duplicate a string in a dynamicly allocated buffer
 1-strdup.c: duplicate a string in a dynamicly allocated buffer
 
+2-str_concat.c: concatinate 2 srtings
+2-str_concat.c: concatinate 2 srtings
+
