@@ -8,3 +8,6 @@ Malloc and Free project
 2-str_concat.c: concatinate 2 srtings
 2-str_concat.c: concatinate 2 srtings
 
+3-alloc_grid.c: Allocate a grid, and initialize every element with 0
+3-alloc_grid.c: Allocate a grid, and initialize every element with 0
+
