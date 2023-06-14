@@ -11,3 +11,6 @@ Malloc and Free project
 3-alloc_grid.c: Allocate a grid, and initialize every element with 0
 3-alloc_grid.c: Allocate a grid, and initialize every element with 0
 
+4-free_grid.c: deallocate a grid
+4-free_grid.c: deallocate a grid
+
