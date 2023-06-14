@@ -17,3 +17,6 @@ Malloc and Free project
 100-argstostr.c: turn Argv into one string
 100-argstostr.c: turn Argv into one string
 
+101-strtow.c: split a sting into different words in dynamically allocated buffers
+101-strtow.c: split a sting into different words in dynamically allocated buffers
+
