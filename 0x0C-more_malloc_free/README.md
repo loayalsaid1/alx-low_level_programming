@@ -5,3 +5,6 @@ More advanced tasks in c malloc and free
 1-string_nconcat.c: concatinate the first n chars from a string with another one
 1-string_nconcat.c: concatinate the first n chars from a string with another one
 
+2-calloc.c: simulate standard library function  calloc
+2-calloc.c: simulate standard library function  calloc
+
