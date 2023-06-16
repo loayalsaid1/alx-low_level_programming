@@ -11,3 +11,6 @@ More advanced tasks in c malloc and free
 3-array_range.c: Create an array that hold integers from MIN to MAX
 3-array_range.c: Create an array that hold integers from MIN to MAX
 
+100-realloc.c: simulate realloc fuction
+100-realloc.c: simulate realloc fuction
+
