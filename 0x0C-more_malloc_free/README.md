@@ -8,3 +8,6 @@ More advanced tasks in c malloc and free
 2-calloc.c: simulate standard library function  calloc
 2-calloc.c: simulate standard library function  calloc
 
+3-array_range.c: Create an array that hold integers from MIN to MAX
+3-array_range.c: Create an array that hold integers from MIN to MAX
+
