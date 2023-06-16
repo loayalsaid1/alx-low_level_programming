@@ -14,3 +14,6 @@ More advanced tasks in c malloc and free
 100-realloc.c: simulate realloc fuction
 100-realloc.c: simulate realloc fuction
 
+101-mul.c: multiply masive numbers givin as argv
+101-mul.c: multiply masive numbers givin as argv
+
