@@ -12,3 +12,6 @@ Structures and typedef project
 5-free_dog.c: free a struct
 5-free_dog.c: free a struct
 
+4-new_dog.c: create a new struct variable
+4-new_dog.c: create a new struct variable
+
