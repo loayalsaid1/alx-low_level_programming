@@ -6,3 +6,6 @@ Structures and typedef project
 2-print_dog.c: print a struct element
 2-print_dog.c: print a struct element
 
+4-new_dog.c: create a new struct via a function
+4-new_dog.c: create a new struct via a function
+
