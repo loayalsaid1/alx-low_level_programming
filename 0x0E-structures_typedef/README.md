@@ -9,3 +9,6 @@ Structures and typedef project
 4-new_dog.c: create a new struct via a function
 4-new_dog.c: create a new struct via a function
 
+5-free_dog.c: free a struct
+5-free_dog.c: free a struct
+
