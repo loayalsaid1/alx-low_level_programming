@@ -3,3 +3,6 @@
 0-print_name.c: print a string via a function pointer
 0-print_name.c: print a string via a function pointer
 
+1-array_iterator.c: do an action to an elemnt in an array
+1-array_iterator.c: do an action to an elemnt in an array
+
