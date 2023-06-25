@@ -3,25 +3,6 @@
 #include "variadic_functions.h"
 
 /**
-* _strlen - returns the length of a string
-* @s: string to evaluate
-*
-* Return: the length of the string
-*/
-int _strlen(const char * const s)
-{
-	int i;
-
-	i = 0;
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-
-	return (i);
-}
-
-/**
 * print_all - prints anything
 * @format: list of types of arguments passed to the function
 */
