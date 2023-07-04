@@ -4,7 +4,7 @@
  * free_listint2 - Free a linked lists that starts with the
  * node pointed to by @*head
  *
- * @*head: A pointer to the pointer points to the first node
+ * @head: A pointer to the pointer points to the first node
  *
  * Desciption: Free the node and go to the next and do the same
  * untill it's the end (next == NULL)
