@@ -13,7 +13,7 @@
  * is NULL so you can make the new one is head and return
  * and check for errors
  *
- * return: The adress to new node
+ * Return: The adress to new node
 */
 
 listint_t *add_nodeint(listint_t **head, const int n)
