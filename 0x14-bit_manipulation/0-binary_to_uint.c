@@ -40,8 +40,6 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	len = _strlen(b);
-	if (len > 64)
-		return (0);
 
 	for (i = 0; i < len; i++)
 	{
