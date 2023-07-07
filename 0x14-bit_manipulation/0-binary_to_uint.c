@@ -33,27 +33,28 @@ int _strlen(const char *str)
 */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int result, power, value;
+	unsigned int result;
 	int i, len;
 
 	if (b == NULL)
 		return (0);
 
-	result = 0;
-	power = 1;
 	len = _strlen(b);
 	if (len > 64)
 		return (0);
 
-	for (i = (len - 1); i >= 0; i--)
+	for (i = 0; i < len; i++)
 	{
 		if (b[i] != '0' && b[i] != '1')
 			return (0);
+	}
 
-		value = b[i] - '0';
-		result += value * power;
-
-		power *= 2;
+	result = 0;
+	for (i = 0; i < len; i++)
+	{
+		result <<= 1;
+		if (b[i] == '1')
+			result += 1;
 	}
 
 	return (result);
