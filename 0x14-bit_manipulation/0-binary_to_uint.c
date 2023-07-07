@@ -24,6 +24,13 @@ int _strlen(const char *str)
 	return (counter);
 }
 
+/**
+ * binary_to_uint - convert binary into uint
+ *
+ * @b: the string contains the string
+ *
+ * Return: 0 in fail, or the final uint
+*/
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result, power, value;
