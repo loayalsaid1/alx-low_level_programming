@@ -18,7 +18,7 @@ int main (int argc, char *argv[])
 		manage_errors("Usage: cp file_from file_to", 97);
 	buffer = malloc(sizeof(char) * BUFFER_SIZE);
 	if (buffer == NULL)
-				manage_errors(_strcat("Error: Can't write to %s", argv[2]), 99);
+		manage_errors(_strcat("Error: Can't write to %s", argv[2]), 99);
 	file_1 = open(argv[1], O_RDONLY);
 	if (file_1 == -1 )
 		manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
@@ -35,13 +35,13 @@ int main (int argc, char *argv[])
 		{
 			manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
 			close_and_show_error(file_1, argv[1]);
-			close_and_show_error(file_1, argv[2]);
+			close_and_show_error(file_2, argv[2]);
 		}
 		if ((write(file_2, buffer, BUFFER_SIZE)) == -1)
 		{
 			manage_errors(_strcat("Error: Can't write to ", argv[2]), 99);
 			close_and_show_error(file_1, argv[1]);
-			close_and_show_error(file_1, argv[2]);
+			close_and_show_error(file_2, argv[2]);
 		}
 	} while (read_bytes == BUFFER_SIZE);
 	free(buffer);
