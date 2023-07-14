@@ -37,12 +37,16 @@ int main (int argc, char *argv[])
 			close_and_show_error(file_1, argv[1]);
 			close_and_show_error(file_2, argv[2]);
 		}
-		if ((write(file_2, buffer, BUFFER_SIZE)) == -1)
+		if ((write(file_2, buffer, read_bytes)) == -1)
 		{
 			manage_errors(_strcat("Error: Can't write to ", argv[2]), 99);
 			close_and_show_error(file_1, argv[1]);
 			close_and_show_error(file_2, argv[2]);
 		}
+		free(buffer);
+		buffer = malloc(sizeof(char) * BUFFER_SIZE);
+		if (buffer == NULL)
+			exit(99);
 	} while (read_bytes == BUFFER_SIZE);
 	free(buffer);
 	close_file(file_1);
