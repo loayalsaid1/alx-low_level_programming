@@ -44,6 +44,7 @@ int main (int argc, char *argv[])
 			close_and_show_error(file_1, argv[2]);
 		}
 	} while (read_bytes == BUFFER_SIZE);
+	free(buffer);
 	close_file(file_1);
 	close_file(file_2);
 
