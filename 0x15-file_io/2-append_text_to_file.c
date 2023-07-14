@@ -1,5 +1,4 @@
 #include "main.h"
-int _string_len(char *s);
 
 /**
  * append_text_to_file - append text to a file opened via open system call
@@ -9,6 +8,7 @@ int _string_len(char *s);
  *
  * Return: 1 on sucess and if the fiel doesn't exist of on error ocurence
  * -1
+*/
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
@@ -27,49 +27,12 @@ int append_text_to_file(const char *filename, char *text_content)
 		len = _strlen(text_content);
 		written_bytes = write(fd, text_content, len);
 		if (written_bytes == -1)
+		{
+
 			close(fd);
 			return (-1);
+		}
 	}
 	close(fd);
 	return (1);
-}
-*/
-int append_text_to_file(const char *filename, char *text_content)
-{
-	int file;
-	int len;
-	int write_len;
-
-	file = open(filename, O_WRONLY | O_APPEND);
-	if (filename == NULL)
-		return (-1);
-	if (file == -1)
-		return (-1);
-	if (text_content != NULL)
-	{
-		len = _string_len(text_content);
-		write_len = write(file, text_content, len);
-	}
-	if (write_len == -1)
-		return (-1);
-	close(file);
-	return (1);
-}
-
-/**
- * _string_len - gets the length of a string
- *
- * @s: string
- *
- * Return: length of string
- *
- */
-int _string_len(char *s)
-{
-	int len;
-
-	len = 0;
-	while (*(s + len))
-		++len;
-	return (len);
 }
