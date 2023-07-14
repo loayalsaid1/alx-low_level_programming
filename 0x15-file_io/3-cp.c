@@ -16,7 +16,7 @@ int main (int argc, char *argv[])
 
 	if (argc != 3)
 		manage_errors("Usage: cp file_from file_to", 97);
-	buffer = malloc(BUFFER_SIZE);
+	buffer = malloc(sizeof(char) * BUFFER_SIZE);
 	if (buffer == NULL)
 				manage_errors(_strcat("Error: Can't write to %s", argv[2]), 99);
 	file_1 = open(argv[1], O_RDONLY);
