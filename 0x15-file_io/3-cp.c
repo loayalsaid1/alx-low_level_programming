@@ -20,11 +20,11 @@ int main (int argc, char *argv[])
 		manage_errors("Usage: cp file_from file_to", 97);
 	file_1 = open(argv[1], O_RDONLY);
 	if (file_1 == -1 )
-		manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
+		manage_errors(strcat("Error: Can't read from file", argv[1]), 98);
 	file_2 = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file_2 == -1)
 	{
-		manage_errors(_strcat("Error: Can't write to %s", argv[2]), 99);
+		manage_errors(strcat("Error: Can't write to %s", argv[2]), 99);
 		close_file(file_1);
 	}
 	do
@@ -32,14 +32,14 @@ int main (int argc, char *argv[])
 		read_bytes = read(file_1, buffer, BUFFER_SIZE);
 		if (read_bytes == -1)
 		{
-			manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
+			manage_errors(strcat("Error: Can't read from file", argv[1]), 98);
 			close_and_show_error(file_1, argv[1]);
 			close_and_show_error(file_2, argv[2]);
 		}
 		written_bytes = write(file_2, buffer, read_bytes);
 		if (written_bytes == -1 || written_bytes != read_bytes)
 		{
-			manage_errors(_strcat("Error: Can't write to ", argv[2]), 99);
+			manage_errors(strcat("Error: Can't write to ", argv[2]), 99);
 			close_and_show_error(file_1, argv[1]);
 			close_and_show_error(file_2, argv[2]);
 		}
@@ -56,6 +56,7 @@ int main (int argc, char *argv[])
  * @dest: copied string
  * Return: a pointer to the resulting string @dest
  */
+/*
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
@@ -67,7 +68,7 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 	dest[i] = '\0';
 	return (dest);
-}
+}*/
 
 /**
  * manage_errors - Print to standard_error a message and with exit an exit status
