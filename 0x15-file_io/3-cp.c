@@ -12,13 +12,10 @@ int main (int argc, char *argv[])
 {
 	ssize_t file_1, file_2;
 	ssize_t read_bytes;
-	char *buffer;
+	char buffer[BUFFER_SIZE];
 
 	if (argc != 3)
 		manage_errors("Usage: cp file_from file_to", 97);
-	buffer = malloc(sizeof(char) * BUFFER_SIZE);
-	if (buffer == NULL)
-		manage_errors(_strcat("Error: Can't write to %s", argv[2]), 99);
 	file_1 = open(argv[1], O_RDONLY);
 	if (file_1 == -1 )
 		manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
@@ -43,12 +40,7 @@ int main (int argc, char *argv[])
 			close_and_show_error(file_1, argv[1]);
 			close_and_show_error(file_2, argv[2]);
 		}
-		free(buffer);
-		buffer = malloc(sizeof(char) * BUFFER_SIZE);
-		if (buffer == NULL)
-			exit(99);
 	} while (read_bytes == BUFFER_SIZE);
-	free(buffer);
 	close_file(file_1);
 	close_file(file_2);
 
