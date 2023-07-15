@@ -10,8 +10,8 @@
 */
 int main (int argc, char *argv[])
 {
-	int file_1, file_2;
-	int read_bytes;
+	ssize_t file_1, file_2;
+	ssize_t read_bytes;
 	char *buffer;
 
 	if (argc != 3)
