@@ -16,6 +16,8 @@ int main (int argc, char *argv[])
 
 	if (argc != 3)
 		manage_errors("Usage: cp file_from file_to", 97);
+	if (strcmp(argv[1], argv[2]) == 0)
+		manage_errors("Usage: cp file_from file_to", 97);
 	file_1 = open(argv[1], O_RDONLY);
 	if (file_1 == -1 )
 		manage_errors(_strcat("Error: Can't read from file", argv[1]), 98);
