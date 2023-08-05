@@ -1,59 +1,49 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @str: string to be processed
+ * binary_to_uint - Returns and decimal represintation of a binary number given
+ * in a string
  *
- * ********** IMPORTANT NOTE: I THOUGH IT MAY
- * BE MORE BETTER IF I USE A COUNTER VARIABLE
- * BUT IT TURNED OUT THAT NO!
+ * @b: the string
  *
- *
- * one more edit: i will change the i to make it
- * named counter, to have a middle ground
- * and make it more readable
- *
- * Return: lenth of string
+ * Return: 0 on errors occurence and the number on success
  */
-int _strlen(const char *str)
-{
-	int counter;
-
-	for (counter = 0; str[counter] != '\0'; counter++)
-		;
-	return (counter);
-}
-
-/**
- * binary_to_uint - convert binary into uint
- *
- * @b: the string contains the string
- *
- * Return: 0 in fail, or the final uint
-*/
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int result;
-	int i, len;
+	unsigned int result = 0;
+	int i;
 
-	if (b == NULL)
+	if (b == NULL || validate_string(b))
 		return (0);
 
-	len = _strlen(b);
-
-	for (i = 0; i < len; i++)
-	{
-		if (b[i] != '0' && b[i] != '1')
-			return (0);
-	}
-
-	result = 0;
-	for (i = 0; i < len; i++)
+	for (i = 0; b[i] != '\0'; i++)
 	{
 		result <<= 1;
+
 		if (b[i] == '1')
 			result += 1;
 	}
 
 	return (result);
+}
+
+/**
+ * validate_string - check for errors
+ * @given: the given string
+ * Return: 0 on success and 1 on errors occurence
+ */
+int validate_string(const char *given)
+{
+	int i;
+
+	if (given == NULL)
+		return (1);
+
+	for (i = 0; given[i] != '\0'; i++)
+	{
+		if (given[i] != '0' && given[i] != '1')
+			return (1);
+	}
+
+	return (0);
 }
