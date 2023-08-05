@@ -1,7 +1,5 @@
 #include "main.h"
 
-int validate_string(const char *given);
-
 /**
  * binary_to_uint - Returns and decimal represintation of a binary number given
  * in a string
