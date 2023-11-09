@@ -1,28 +1,6 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - Name answers!
- * @head: the head of the list
- * @index: index!
- * Return: Node, or Null on fail
- */
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
-{
-	unsigned int count = 0;
-	dlistint_t *current = head;
-
-	while (current != NULL)
-	{
-		if (count == index)
-			return (current);
-		count++;
-		current = current->next;
-	}
-
-	return (NULL);
-}
-
-/**
  * delete_dnodeint_at_index - Delete a node in a DLL
  * @head: pointer to the head pointer
  * @index: index!
@@ -30,37 +8,43 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *node = get_dnodeint_at_index(*head, index);
+	unsigned int count;
+	dlistint_t *current;
 
-	if (node == NULL)
+	if (head == NULL || *head == NULL)
 		return (-1);
-	else if (node->prev == NULL)
+
+	if (index == 0)
 	{
-		node->next->prev = NULL;
-		*head = node->next;
-
-		free(node);
-		node = NULL;
-
+		if ((*head)->next == NULL)
+		{
+			free(*head);
+			*head = NULL;
+			return (1);
+		}
+		*head = (*head)->next;
+		free((*head)->prev);
+		(*head)->prev = NULL;
 		return (1);
 	}
-	else if (node->next == NULL)
+
+	count = 1;
+	current = (*head)->next;
+	while (current)
 	{
-		node->prev->next = NULL;
-
-		free(node);
-		node = NULL;
-
-		return (1);
+		if (count == index)
+		{
+			current->prev->next = current->next;
+			if (current->next)
+			{
+				current->next->prev = current->prev;
+			}
+			free(current);
+			return (1);
+		}
+		count++;
+		current = current->next;
 	}
-	else
-	{
-		node->prev->next = node->next;
-		node->next->prev = node->prev;
 
-		free(node);
-		node = NULL;
-
-		return (1);
-	}
+	return (-1);
 }
