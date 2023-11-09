@@ -9,3 +9,6 @@
 
 
 2-add_dnodeint.c -> Add a node at the front of a DLL
+
+
+3-add_dnodeint_end.c -> add a node to the end of the DLL
