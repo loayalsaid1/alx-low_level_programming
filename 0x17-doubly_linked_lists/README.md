@@ -12,3 +12,6 @@
 
 
 3-add_dnodeint_end.c -> add a node to the end of the DLL
+
+
+4-free_dlistint.c -> free a DLL
