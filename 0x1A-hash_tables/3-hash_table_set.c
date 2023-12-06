@@ -16,15 +16,26 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	index = key_index((const unsigned char *) key, ht->size);
-	node = make_node(key, value);
-	if (node == NULL)
-		return (0);
 
-	if (ht->array[index])
-		handle_collision(ht, node, index);
+	node = search_key(ht, index, key);
+	if (node)
+	{
+		node->value = strdup(value);
+	}
 	else
-		ht->array[index] = node;
+	{
+		node = make_node(key, value);
+		if (node == NULL)
+			return (0);
 
+		if (ht->array[index])
+		{
+			node->next = ht->array[index];
+			ht->array[index] = node;
+		}
+		else
+			ht->array[index] = node;
+	}
 	return (1);
 }
 
@@ -49,17 +60,26 @@ hash_node_t *make_node(const char *key, const char *value)
 }
 
 /**
- * handle_collision - adds a node node at the beginnning of a slot
- * in the table
- *
- * @table: the table
- * @node: the node to feed
- * @index: the index to place the node
- *
- * Return: void
- */
-void handle_collision(hash_table_t *table, hash_node_t *node, uli index)
+ * search_key - search for existence of a key in slot in a
+ * hash table
+ * @ht: the table
+ * @index: the index of the slot
+ * @key: the key to search for
+ * Return: The node of the key if it exists and NULL otherwise
+*/
+hash_node_t *search_key(hash_table_t *ht, uli index, const char *key)
 {
-	node->next = table->array[index];
-	table->array[index] = node;
+	hash_node_t *temp = ht->array[index];
+
+	while (temp)
+	{
+		if (strcmp(temp->key, key) == 0)
+			break;
+		temp = temp->next;
+	}
+	/**
+	 * if it's end of the loop(or loop didn't start at all), then it's NULL,
+	 * a node with the right key otherwise
+	*/
+	return (temp);
 }
