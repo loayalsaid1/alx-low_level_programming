@@ -1,4 +1,0 @@
-/**
- * iam checking git speed
- */
-
