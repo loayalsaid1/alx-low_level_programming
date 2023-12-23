@@ -74,6 +74,7 @@ void print_list(LinkedList *head, unsigned long i)
         temp = temp->next;
     }
 }
+
 void print_table(HashTable *table)
 {
     printf("\nHash Table\n-----------------------\n");
@@ -90,7 +91,6 @@ void print_table(HashTable *table)
 
     printf("-----------------------\n\n");
 }
-
 
 void ht_insert(HashTable *table, char *key, char *value)
 {
