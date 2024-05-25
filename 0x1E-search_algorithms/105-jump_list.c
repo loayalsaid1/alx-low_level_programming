@@ -18,7 +18,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 	if (list == NULL || size < 1)
 		return (NULL);
 
-	while (value > temp->n && temp->next)
+	while (value > temp->n && temp->express)
 	{
 		prev = temp;
 		/*Do the jump*/
