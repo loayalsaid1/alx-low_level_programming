@@ -6,7 +6,7 @@
 
 void print_array(int arr[], int size);
 void swap(int arr[], int index_x, int index_y);
-void bubble_sort(int arr[], int size);
+void bubble_sort(int *array, size_t size);
 
 int main(void)
 {
@@ -46,7 +46,7 @@ void swap(int arr[], int index_x, int index_y)
 }
 
 
-void bubble_sort(int arr[], int size)
+void bubble_sort(int *array, size_t size);
 {
     for (int i = 0; i < size-1; i++)
     {
